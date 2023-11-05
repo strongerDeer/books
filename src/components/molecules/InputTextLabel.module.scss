@@ -1,0 +1,21 @@
+@import '@/styles/var.scss';
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  .label {
+    font-size: fcSize(12, 14);
+    color: rgba(map-get($color, 'text'), 0.5);
+  }
+
+  .input {
+    border: 1px solid map-get($color, 'grayLv2');
+    flex-grow: 1;
+
+    padding: 0 1rem;
+    height: $inputHeight;
+    border-radius: $borderRadius;
+  }
+}

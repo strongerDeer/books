@@ -1,0 +1,12 @@
+.form {
+  width: 36rem;
+  max-width: calc(100% - 6rem);
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  button {
+    width: 100%;
+  }
+}
